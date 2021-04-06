@@ -1,0 +1,27 @@
+body, button, input, textarea {
+    font-family: ARS Maquette,Helvetica Neue,Arial,sans-serif;
+    font-size: 14px;
+}
+
+body {
+    color: #555;
+    line-height: 1.5;
+    min-height:100vh;
+}
+
+@media screen and (min-width: 480px) 
+body::after {
+    content: "s";
+}
+
+body::after {
+content: "xs";
+display: none;
+}
+
+*, ::after, ::before{
+    box-sizing:border-box;
+    -webkit-font-smoothing: antialiased;
+    outline: none;
+    text-rendering: optimizeLegibility;
+}
