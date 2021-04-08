@@ -1,46 +1,37 @@
-# tnw-website
+![](https://img.shields.io/badge/Microverse-blueviolet)
 
-> One paragraph statement about the project.
+# Building with Responsive Design 
 
-![screenshot](./app_screenshot.png)
+![The Next Web Clone](/images/nwbc1.png)
+![The Next Web Clone](/images/nwbc2.png)
 
-Additional description about the project and its features.
+### Built With
 
-## Built With
+- HTML
+- CSS
 
-- Major languages
-- Frameworks
-- Technologies used
+## Live Version Here 👇🏽️
 
-## Live Demo
+- [The Next Web Clone](https://ad9311.github.io/nwbc/)
 
-[Live Demo Link](https://livedemo.com)
+## Author
 
-## Authors
+👤 **Boaz Aduda**
 
-👤 **Lilian Moraa**
+- GitHub: [@githubhandle](https://github.com/Aduda-Boaz)
+- Twitter: [@twitterhandle](https://twitter.com/adudaboaz)
 
-- GitHub: [@githubhandle](https://github.com/lily-coder)
-- Twitter: [@twitterhandle](https://mobile.twitter.com/LilianM53742529)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/lilian-moraa-99950b1b8)
 
+👤 **Ángel Díaz**
+
+- GitHub: [@githubhandle](https://github.com/ad9311)
+- Twitter: [@twitterhandle](https://twitter.com/adiaz9311)
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
 
 ## Show your support
 
-Give a ⭐️ if you like this project!
-
-## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
-
-## 📝 License
-
-This project is [MIT](./MIT.md) licensed.
+Please consider leaving a ⭐️ if you like this project!

@@ -1,121 +1,477 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <title>Document</title>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>TNW Website Clone</title>
+	<link rel="stylesheet" href="CSS/styles.css">
+	<script src="https://kit.fontawesome.com/7b838c6d68.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <nav>
-        <div>
-            <a>
-                <img src="https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/tnw.svg">
-            </a>
-            <ul>
-                <li><a href="#">News</a></li>
-                <li><a href="#">Events</a></li>
-                <li><a href="#">Index</a></li>
-                <li><a href="#">Spaces</a></li>
-                <li><a href="#">Deals</a></li>
-                <li><a href="#">Answers</a></li>
-                <li><a href="#">Tnw Programs</a></li>
-            </ul>
-        </div>
-        <ul>
-            <li>
-                <a href="#">News</a>
-            </li>
-            <li>
-                <a href="#">Events</a>
-                    <ul>
-                        <li><a href="#">TNW Conference</a></li>
-                        <li><a href="#">Couch Conferences</a></li>
-                        <li><a href="#">The Global Boadroom</a></li>
-                    </ul>
-            </li>
-            <li>
-                <a href="#">Events</a>
-                <ul>
-                    <li><a href="#">Index</a></li>
-                    <li<a href="#">Programs</a><li>
-                </ul>
-            </li>
-            <li><a href="#">AMAs</a></li>
-            <li><a href="#">Spaces</a></li>
-            <li><a href="#">Terms & Conditions</a></li>
-            <div>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Advertise</a></li>
-                <li><a href="#">Jobs</a></li>
-                <li><a href="#">Contacts</a></li>
-            </div>
-        </ul>
-        <div>
-            <ul>
-                <li><a href="#">Latest</a></li>
-                <li><a href="#">Hard Fork</a></li>
-                <li><a href="#">Plugged</a></li>
-                <li><a href="#">ReadMe</a></li>
-                <li><a href="#">Growth Quarters</a></li>
-                <li><a href="#">Shift</a></li>
-                <li><a href="#">Neural</a></li>
-            </ul>
-        </div>
-        <div>
-            <div>
-                <ul>
-                    <li><a href="#"><i class ="fa fa-envelope"></i></i></a></li>
-                    <li><a href="#"><i class ="fa fa-facebook"></i></i></a></li>
-                    <li><a href="#"><i class ="fa fa-twitter"></i></i></a></li>
-                    <li><a href="#"><i class ="fa fa-linkedin"></i></i></a></li>
-                    <li><a href="#"><i class ="fa fa-youtube"></i></i></a></li>
-                    <li><a href="#"><i class ="fa fa-pinterest"></i></i></a></li>
-                    <li><a href="#"><i class ="fa fa-instagram"></i></i></a></li>
-                    <li><a href="#"><i class ="fa fa-rss"></i></i></a></li>
-                </ul>
-                <div class="u-col-xs-6">
-                    <h5>Sections</h5>
-                    <ul>
-                        <li><a href="">Latest</a></li>
-                        <li><a href="">Insights</a></li>
-                        <li><a href="">Plugged</a></li>
-                        <li><a href="">Hard Fork</a></li>
-                        <li><a href="">ReadMe</a></li>
-                        <li><a href="">Growth Quarters</a></li>
-                        <li><a href="">Shift</a></li>
-                        <li><a href="">Neural</a></li>
-                    </ul>
-                </div>
-                <div>
-                    <h5>About TNW</h5>
-                    <ul>
-                        <li><a href="">About</a></li>
-                        <li><a href="">Advertise</a></li>
-                        <li><a href="">Jobs</a></li>
-                        <li><a href="">Contacts</a></li>
-                        <li><a href="">Conditions</a></li>
-                    </ul>
-                    <h5>TNW Sites</h5>
-                    <ul>
-                        <li><a href="">Events</a></li>
-                        <li><a href="">News</a></li>
-                        <li><a href="">Programs</a></li>
-                        <li><a href="">Index</a></li>
-                        <li><a href="">Spaces</a></li>
-                        <li><a href="">Deals</a></li>
-                        <li><a href="">Answers</a></li>
-                    </ul>
-                </div>
-            </div>
-        <div>   
+	<!--header section-->
+	<header>
+		<nav class="flex">
+		  	<div class="top-nav flex">
+				<nav>
+			  		<ul class="flex mid">
+						<li><a href="#">News</a></li>
+						<li><a href="#">Events</a></li>
+						<li><a href="#">Business</a></li>
+						<li><a href="#">AMAs</a></li>
+						<li><a href="#">Spaces</a></li>
+						<li><a href="#">Terms & Conditions</a></li>
+			  		</ul>
+				</nav>
+			<nav>
+			  	<ul class="flex mid">
+					<li><a href="#">About</a></li>
+					<li><a href="#">Advertise</a></li>
+					<li><a href="#">Jobs</a></li>
+					<li><a href="#">Contact</a></li>
+			  	</ul>
+			</nav>
+		  	</div>
 
-            <a href="https://thenextweb.com/events/boost">
-                <div>
-                    Connect with high-level marketing leaders. Join Boost online events ->
-                    <div>
-            </a>
-    </nav>
+		  	<div class="flex mid-nav">
+			  	<a class="logo-img" >
+					<img class="logo-img"  src="img/tnw-logo.png" alt="TNW logo">
+				  </a>
+			  		<ul class="flex btm">
+						<li><a href="#">LATEST</a></li>
+						<li><a href="#">HARD FORK</a></li>
+						<li><a href="#">PLUGGED</a></li>
+						<li><a href="#">README</a></li>
+						<li><a href="#">GROWTH QUARTERS</a></li>
+			  		</ul>
+				<div class="flex btm links">
+					<a href="#"><i class="fas fa-search"></i></a>
+					<a href="#"><i class="fas fa-bars"></i></a>
+				</div>          
+		  	</div>
+
+		  	<div class="flex btm-nav">
+			<a href="#"><p>Calling young digital talent in the Netherlands - Be recognized in the T500 →</p></a>
+		  		</div>
+		</nav>
+	</header>
+<main class="">
+	
+	<section class="showcases flex">
+		<div class="showcase image-1 flex ">
+		  <img src="img/logo-transparent.png" alt="big logo tnw">
+		  <time datetime="2021-01-26">Tuesday - January 26, 2021</time>
+		  <h1>Opal cuts off your apps’ internet access to help you stop doomscrolling</h1>
+		  <ul class="flex gray">
+			<li>by <a href="#">Ivan Mehta</a></li>
+			<li><i class="far fa-clock"></i> 1 hour ago</li>
+			<li><i class="fas fa-share-alt"></i> 6</li>
+		  </ul>
+		</div>
+		<div class="sub-container">
+		  <div class="showcase-block flex image2">
+			<h2>Google unveils privacy-friendly AI cookie killer</h2>
+			<ul class="flex gray">
+			  <li>by <a href="#">Thomas Macaulay </a></li>
+			  <li><i class="far fa-clock"></i> 2 hours ago</li>
+			  <li><i class="fas fa-share-alt"></i> 4</li>
+			</ul>
+		  </div>
+		  <div class="showcase-block flex image3">
+			<h2>This Mac app automatically detects your duplicate files</h2>
+			<ul class="flex gray">
+			  <li>by <a href="#">Ivan Mehta</a></li>
+			  <li><i class="far fa-clock"></i> 2 hours ago</li>
+			  <li><i class="fas fa-share-alt"></i> 5</li>
+			</ul>
+		  </div>
+		</div>
+	  </section>
+
+	  <section class="news wrapper flex">
+        <a href="#"><h2>Latest news  &gt;</h2></a>
+        <div class="grid-container">
+          <div class="sub-news flex">
+            <a href="#"><img src="img/news-1.png" alt="Golden gate bridge"></a>
+            <div class="wrapper flex">
+              <a href="#"><h4>Want to drive a hydrogen EV in the US? Move to California </h4></a>
+              <ul class="flex">
+                <li> <a href="#">Matthew Beedham &nbsp;</a></li>
+                <li> 	&bull; 22 minutes ago</li>
+              </ul>
+            </div>
+          </div>
+          <div class="sub-news flex">
+            <a href="#"><img src="img/news-2.png" alt="Golden gate bridge"></a>
+            <div class="wrapper flex">
+              <a href="#"><h4>Help kill the ‘Bernie sitting’ meme with this easy-to-use image generator  </h4></a>
+              <ul class="flex">
+                <li> <a href="#">Callum Booth &nbsp;</a></li>
+                <li> 	&bull; 3 hours ago</li>
+              </ul>
+            </div>  
+          </div>
+          <div class="sub-news flex">
+            <a href="#"><img src="img/news-3.png" alt="Golden gate bridge"></a>
+            <div class="wrapper flex">
+              <a href="#"><h4>Uber expands its low-emission ride options to 1,400 more North American cities</h4></a>
+            <ul class="flex">
+              <li> <a href="#">Cities Today &nbsp;</a></li>
+              <li> 	&bull; 5 hours ago</li>
+            </ul>
+            </div>  
+          </div>
+          <div class="sub-news flex">
+            <a href="#"><img src="img/news-4.png" alt="Golden gate bridge"></a>
+            <div class="wrapper flex">
+              <a href="#"><h4>3 reasons why almost every VC investor passed on Zoom </h4></a>
+              <ul class="flex">
+                <li> <a href="#">Philip Levinson &nbsp;</a></li>
+                <li> 	&bull; 5 hours ago</li>
+              </ul>
+            </div> 
+          </div>
+          <div class="sub-news flex">
+            <a href="#"><img src="img/news-5.png" alt="Golden gate bridge"></a>
+            <div class="wrapper flex">
+              <a href="#"><h4>It’s happening! World’s biggest diesel factory pivots to electric motors </h4></a>
+              <ul class="flex">
+                <li> <a href="#">Matthew Beedham &nbsp;</a></li>
+                <li> 	&bull; 6 hours ago</li>
+              </ul>
+            </div> 
+          </div>
+          <div class="sub-news flex">
+            <a href="#"><img src="img/news-6.png" alt="Golden gate bridge"></a>
+            <div class="wrapper flex">
+              <a href="#"><h4>This nearly inexplicable exoplanet has the density of cotton candy</h4></a>
+              <ul class="flex">
+                <li> <a href="#">The Cosmic Companion &nbsp;</a></li>
+                <li> 	&bull; 6 hours ago</li>
+              </ul>
+            </div> 
+          </div>
+          <div class="sub-news flex">
+            <a href="#"><img src="img/news-7.png" alt="Golden gate bridge"></a>
+            <div class="wrapper flex">
+              <a href="#"><h4>The future of US government vehicles is electric </h4></a>
+              <ul class="flex">
+                <li> <a href="#">Matthew Beedham &nbsp;</a></li>
+                <li> 	&bull; 7 hours ago</li>
+              </ul>
+            </div> 
+          </div>
+          <div class="sub-news flex">
+            <a href="#"><img src="img/news-8.png" alt="Golden gate bridge"></a>
+            <div class="wrapper flex">
+              <a href="#"><h4>Signal is drama-free for now, but it should prepare for the worst </h4></a>
+              <ul class="flex">
+                <li> <a href="#">Abhimanyu Ghoshal
+                  &nbsp;</a></li>
+                <li> 	&bull; 8 hours ago</li>
+              </ul>
+            </div> 
+          </div>
+        </div>
+      </section>
+
+	  <section class="latest-funding wrapper flex">
+		<div class="sec-heading flex">
+		  <h2>Latest funding rounds on Index.co  	&gt;</h2>
+		  <ul class="flex">
+			<li><a href="#">Add info</a></li>
+			<li id="updates" ><a href="#">Get updates by email</a></li>
+			<li><a href="#">See more</a></li>
+		  </ul>
+		</div>      
+		<div class="boxes">
+		  <div class="box">
+			<div class="top-box">
+			  <img src="img/funding-img-1.jpg" alt="Ringover">
+			  <a href="#"><h4>Ringover</h4></a>
+			  <a href="#"><p class="value">$12M</p></a>
+			  <a href="#"><p class="series">SERIES A</p></a>
+			</div>
+			<div class="center-box flex">
+			  <a href="#"><i class="fas fa-tag"></i> Telecomunications</a>
+			  <a href="#"><i class="fas fa-briefcase"></i> Expedition Growth Capital</a>
+			</div>
+			<div class="bottom-box">
+			  <a href="#"><p>Ringover raises $12 million to bring enterprise communications to the cloud <span>on VentureBeat</span></p></a>
+			</div>
+		  </div>
+		  <div class="box">
+			<div class="top-box">
+			  <img src="img/funding-img-2.webp" alt="Swiss code">
+			  <a href="#"><h4>SwissDeCode</h4></a>
+			  <a href="#"><p class="value">$4.2M</p></a>
+			  <a href="#"><p class="series">VENTURE CAPITAL</p></a>
+			</div>
+			<div class="center-box flex">
+			  <a href="#"><i class="fas fa-tag"></i> Biotechnology</a>
+			  <a href="#"><i class="fas fa-briefcase"></i> VisVires New Protein</a>
+			</div>
+			<div class="bottom-box">
+			  <a href="#"><p>BREAKING: Food testing startup SwissDeCode nets $4.2m from VisVires New Protein, EIT Food <span>on AgFunderNews</span></p></a>
+			</div>
+		  </div>
+		  <div class="box" id="third-box">
+			<div class="top-box">
+			  <img src="img/funding-img-3.jpg" alt="Klook">
+			  <a href="#"><h4>Klook</h4></a>
+			  <a href="#"><p class="value">$200M</p></a>
+			  <a href="#"><p class="series">SERIES E</p></a>
+			</div>
+			<div class="center-box flex">
+			  <a href="#"><i class="fas fa-tag"></i> Internet</a>
+			  <a href="#"><i class="fas fa-briefcase"></i> Boyu Capital, +4</a>
+			</div>
+			<div class="bottom-box">
+			  <a href="#"><p>SoftBank-backed travel platform Klook raises $200M amid COVID-19 <span>on TechCrunch</span></p></a>
+			</div>
+		  </div>
+		  <div class="box" id="fourth-box">
+			<div class="top-box">
+			  <img src="img/funding-img-4.jpg" alt="Wolt">
+			  <a href="#"><h4>Wolt</h4></a>
+			  <a href="#"><p class="value">$530M</p></a>
+			  <a href="#"><p class="series">VENTURE CAPITAL</p></a>
+			</div>
+			<div class="center-box flex">
+			  <a href="#"><i class="fas fa-tag"></i> Mobile, +5</a>
+			  <a href="#"><i class="fas fa-briefcase"></i> DST Global, +9</a>
+			</div>
+			<div class="bottom-box">
+			  <a href="#"><p>Food delivery startup Wolt raises $530M after tripling revenues <span>on SiliconANGLE</span></p></a>
+			</div>
+		  </div>
+		</div>
+	  </section>
+	  <section class="categories flex wrapper ">
+        <div class="category flex">
+          <a href="#"><h2>Hard Fork  &gt;</h2></a>
+          <div class="top-category flex bg-1">
+            <p>MOST POPULAR</p>
+            <a class="hover-underline" href="#"><h3>GameStop stocks hit record high - thanks to Redditors</h3></a>
+            <ul class="flex">
+              <li> <a href="#">Ivan Mehta &nbsp;</a></li>
+              <li>&bull; 1 day ago</li>
+            </ul>
+          </div>
+          <div class="center-category">
+            <a href="#"><img src="img/sub-categories-1.jpg" alt="Jack Ma - Founder of ALi Baba"></a>
+            <p>LATEST</p>
+            <a href="#"><h5>Alibaba shares jump 8% as Jack Ma surfaces after 3 months</h5></a>
+          </div>
+
+          <ul class="bottom-category">
+            <li><a href="#">Twitter shares fall 7% in pre-market trading after Trump's removal </a></li>
+            <li><a href="#">Winklevoss comes out of meditation to witness Bitcoin's record high</a></li>
+            <li><a href="#">CD Projekt Rekt: Cyberpunk 2077 tanks studio's share price nearly 50%</a></li>
+            <li><a href="#">CD Projekt stock down 20% since Cyberpunk reviews hit the internet</a></li>
+            <li><a href="#">Airbnb to be bigger than eBay after its long-awaited IPO </a></li>
+          </ul>
+        </div>
+        <div class="category flex" id="second-category">
+          <a href="#"><h2>Apps  &gt;</h2></a>
+          <div class="top-category flex bg-2">
+            <p>MOST POPULAR</p>
+            <a class="hover-underline" href="#"><h3>Google Maps is adding COVID19 vaccine sites</h3></a>
+            <ul class="flex">
+              <li> <a href="#">Napier Lopez &nbsp;</a></li>
+              <li> 	&bull; 17 hours ago</li>
+            </ul>
+          </div>
+          <div class="center-category">
+            <a href="#"><img src="img/sub-categories-2.png" alt="Bernie sitting meme "></a>
+            <p>LATEST</p>
+            <a href="#"><h5>Help kill the 'Bernie sitting' meme with this easy-to-use image generator</h5></a>
+          </div>
+          <ul class="bottom-category">
+            <li><a href="#">Signal is drama-free for now, but it should prepare for the worst  </a></li>
+            <li><a href="#">Birdwatch is Twitter's new community-based fact checker </a></li>
+            <li><a href="#">Google Maps is adding COVID19 vaccine sites </a></li>
+            <li><a href="#">Google Search has a new mobile design — come spot the differences </a></li>
+            <li><a href="#">Microsoft Edge gets 'sleeping' tabs and a password generator </a></li>
+          </ul>
+        </div>
+        <div class="category flex" id="third-category">
+          <a href="#"><h2>Gear  &gt;</h2></a>
+          <div class="top-category flex bg-3">
+            <p>MOST POPULAR</p>
+            <a class="hover-underline" href="#"><h3>Report: Apple may bring MagSafe and SD card slots back to MacBook</h3></a>
+            <ul class="flex">
+              <li> <a href="#">Napier Lopez &nbsp;</a></li>
+              <li> 	&bull; 3 days ago</li>
+            </ul>
+          </div>
+          <div class="center-category">
+            <a href="#"><img src="img/sub-categories-3.jpg" alt="Apple"></a>
+            <p>LATEST</p>
+            <a href="#"><h5>Report: Apple to make a plain old VR headset before its fancy AR glasses</h5></a>
+          </div>
+          <ul class="bottom-category">
+            <li><a href="#">KEF's new basketball-sized subwoofer promises 'maximum bass in minimum space' </a></li>
+            <li><a href="#">Qualcomm's new Snapdragon 870 is an 'almost-flagship' chip for Android phones </a></li>
+            <li><a href="#">How to manage your screen time during the lockdown, according to science </a></li>
+            <li><a href="#">How sleep trackers can actually ruin your sleep </a></li>
+            <li><a href="#">Report: Apple is building foldable iPhone prototypes</a></li>
+          </ul>
+        </div>
+      </section>
+	  <section class="news wrapper deals flex">
+        <div class="flex latest-heading">
+          <a href="#"><h2>Latest deals  &gt;</h2></a>
+          <a href="#"><p>See all Deals</p></a>
+        </div>
+        <div class="grid-container">
+          <div class="sub-news flex">
+            <div class="img-wrapper">
+              <div class="triangle">
+                <a href="#"><p class="discount">97% OFF</p></a>
+              </div>
+              <a href="#"><img src="img/deals-1.jpg" alt="Glasses"></a>
+            </div>
+            <div class="wrapper flex">
+              <a href="#"><h4>The Ultimate 2021 White Hat Hacker Certification Bundle</h4></a>
+              <ul class="flex">
+                <li> <span class="strike-through">$1345</span> &nbsp;</li>
+                <li> $39.90</li>
+              </ul>
+            </div>
+          </div>
+          <div class="sub-news flex">
+            <div class="img-wrapper"> 
+              <div class="triangle">
+                <a href="#"><p class="discount">99% OFF</p></a>
+              </div>           
+              <a href="#"><img src="img/deals-2.jpg" alt="Premium Bundle"></a>
+            </div>
+            <div class="wrapper flex">
+              <a href="#"><h4>The Premium 2021 Project & Quality Management Certification Bundle </h4></a>
+              <ul class="flex">
+                <li> <span class="strike-through">$4400</span> &nbsp;</li>
+                <li> $45.99</li>
+              </ul>
+            </div>  
+          </div>
+          <div class="sub-news flex">
+            <div class="img-wrapper">
+              <div class="triangle">
+                <a href="#"><p class="discount">99% OFF</p></a>
+              </div>       
+              <a href="#"><img src="img/deals-3.jpg" alt="Pro Google SEO"></a>
+            </div>
+            <div class="wrapper flex">
+              <a href="#"><h4>The Pro Google SEO & SERP Certification Bundle</h4></a>
+            <ul class="flex">
+              <li> <span class="strike-through">$2000</span> &nbsp;</li>
+              <li> $29</li>
+            </ul>
+            </div>  
+          </div>
+          <div class="sub-news flex">
+            <div class="img-wrapper">  
+              <div class="triangle">
+                <a href="#"><p class="discount">98% OFF</p></a>
+              </div>              
+              <a href="#"><img src="img/deals-4.jpg" alt="Microsoft Azure"></a>
+            </div>
+            <div class="wrapper flex">
+              <a href="#"><h4>The Complete 2021 Microsoft Azure Certification Prep Bundle</h4></a>
+              <ul class="flex">
+                <li> <span class="strike-through">$1839</span> &nbsp;</li>
+                <li> $39</li>
+              </ul>
+            </div> 
+          </div>
+          <div class="sub-news flex">
+            <div class="img-wrapper"> 
+              <div class="triangle">
+                <a href="#"><p class="discount">80% OFF</p></a>
+              </div>               
+              <a href="#"><img src="img/deals-5.jpg" alt="IPVanish"></a>
+            </div>
+            <div class="wrapper flex">
+              <a href="#"><h4>IPVanish VPN: 1-Yr Subscription</h4></a>
+              <ul class="flex">
+                <li> <span class="strike-through">$143</span> &nbsp;</li>
+                <li> $29</li>
+              </ul>
+            </div> 
+          </div>
+          <div class="sub-news flex">
+            <div class="img-wrapper">     
+              <div class="triangle">
+                <a href="#"><p class="discount">96% OFF</p></a>
+              </div>           
+              <a href="#"><img src="img/deals-6.jpg" alt="X Music"></a>
+            </div>
+            <div class="wrapper flex">
+              <a href="#"><h4>The Ultimate Logic Pro X Music Production Bundle</h4></a>
+              <ul class="flex">
+                <li> <span class="strike-through">$690</span> &nbsp;</li>
+                <li> $29</li>
+              </ul>
+            </div> 
+          </div>
+          <div class="sub-news flex">
+            <div class="img-wrapper"> 
+              <div class="triangle">
+                <a href="#"><p class="discount">97% OFF</p></a>
+              </div>               
+              <a href="#"><img src="img/deals-7.jpg" alt="Azure certification"></a>
+            </div>
+            <div class="wrapper flex">
+              <a href="#"><h4>The 2021 Complete Microsoft Azure Certification Prep Bundle </h4></a>
+              <ul class="flex">
+                <li> <span class="strike-through">$1194</span> &nbsp;</li>
+                <li> $34.99</li>
+              </ul>
+            </div> 
+          </div>
+          <div class="sub-news flex">
+            <div class="img-wrapper">   
+              <div class="triangle">
+                <a href="#"><p class="discount">87% OFF</p></a>
+              </div>             
+              <a href="#"><img src="img/deals-8.jpg" alt="Familio"></a>
+            </div>
+            <div class="wrapper flex">
+              <a href="#"><h4>Familio Private Backup Platform: Lifetime Subscription</h4></a>
+              <ul class="flex">
+                <li> <span class="strike-through">$300</span> &nbsp;</li>
+                <li> $39.99</li>
+              </ul>
+            </div> 
+          </div>
+        </div>
+      </section>
+</main>
+<footer>
+    <div class="bg-lighter flex ">
+      <div class="flex">
+        <a href="#"><i class="fab fa-facebook-square"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-youtube"></i></a>
+        <a href="#"><i class="fab fa-instagram-square"></i></a>
+        <a href="#"><i class="fab fa-pinterest-p"></i></a>
+        <a href="#"><i class="fas fa-wifi"></i></a>
+        <a href="#"><i class="fas fa-envelope"></i></a>
+      </div>
+      <div>
+        <ul class="flex footer-links">
+          <li><a href="#">EVENTS</a></li>
+          <li><a href="#">ABOUT</a></li>
+          <li><a href="#">ADVERTISE</a></li>
+          <li><a href="#">JOBS</a></li>
+          <li><a href="#">CONTACT</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="flex footer-logo">
+      <a href="#"><img src="img/tnw-logo-footer.jpg" alt="footer"></a><p>&copy; 2006-2021 The Next Web B.V. Made with &lt;3 in Amsterdam. Powered by</p><a href="#"><strong class="stackpath">STACKPATH</strong></a>
+    </div>
+  </footer>
 </body>
 </html>
